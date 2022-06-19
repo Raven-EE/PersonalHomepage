@@ -6,4 +6,4 @@
   
   
   
-  <img src="./demo.png" alt="demo" style="zoom: 33%;" />
+  <img src="./demo.jpg" alt="demo" style="zoom: 33%;" />
