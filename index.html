@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <main>
+        <header id="header">
+            <nav>
+                <div class="container">
+                    <div class="logo">
+                        <img src="./img/logo.png" alt="">
+                    </div>
+
+                    <div class="links">
+                        <ul>
+                            <li>
+                                <a href="#header">Home</a>
+                            </li>
+                            <li>
+                                <a href="#services">Service</a>
+                            </li>
+                            <li>
+                                <a href="#portfolio">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#about">About</a>
+                            </li>
+                            <li>
+                                <a href="#testimonials">Testimonials</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#hireme" class="active">Hire me</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hamburger-menu">
+                        <div class="bar">
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="header-content">
+                <div class="container grid-2">
+                    <div class="column-1">
+                        <h1 class="header-title">Your Name</h1>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida nisl quis augue suscipit, a tempus orci egestas. Etiam convallis lacinia tincidunt. Ut ultricies placerat purus, nec bibendum felis congue a. Etiam nec tempor elit.
+                        </p>
+                        <a href="#" class="btn">Download CV</a>
+                    </div>
+                    <div class="column-2 image">
+                        <img src="./img/person.svg" class="img-element" alt="">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="services section" id="services">
+            <div class="container">
+                <div class="section-header">
+                    <h3 class="title" data-title="What I Do">Services</h3>
+                    <p class="text">Donec in vulputate felis. Etiam velit justo, rutrum et erat a, blandit luctus elit. </p>
+                </div>
+
+                <div class="cards">
+                    <div class="card-wrap">
+                        <div class="card" data-card="UI/UX">
+                            <div class="card-content">
+                                <img src="./img/design-icon.png" class="icon" alt="">
+                                <h3 class="title-sm">Web Design</h3>
+                                <p class="text">
+                                    Donec in vulputate felis. Etiam velit justo, rutrum et erat a, blandit luctus elit. 
+                                </p>
+                                <a href="#" class="btn small">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-wrap">
+                        <div class="card" data-card="Code">
+                            <div class="card-content">
+                                <img src="./img/code-icon.png" class="icon" alt="">
+                                <h3 class="title-sm">Web Development</h3>
+                                <p class="text">
+                                    Donec in vulputate felis. Etiam velit justo, rutrum et erat a, blandit luctus elit. 
+                                </p>
+                                <a href="#" class="btn small">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-wrap">
+                        <div class="card" data-card="App">
+                            <div class="card-content">
+                                <img src="./img/app-icon.png" class="icon" alt="">
+                                <h3 class="title-sm">App Development</h3>
+                                <p class="text">
+                                    Donec in vulputate felis. Etiam velit justo, rutrum et erat a, blandit luctus elit. 
+                                </p>
+                                <a href="#" class="btn small">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="portfolio section" id="portfolio">
+            <div class="background-bg"></div>
+            <div class="container">
+                <div class="section-header">
+                    <h3 class="title" data-title="MY WORKS">Portfolio</h3>
+                </div>
+                <div class="section-body">
+                    <div class="filter">
+                        <button class="filter-btn active" data-filter="*">ALL</button>
+                        <button class="filter-btn" data-filter=".ui">UI/UX</button>
+                        <button class="filter-btn " data-filter=".webdev">Web DEV</button>
+                        <button class="filter-btn" data-filter=".appdev">Mobile APP</button>
+                        <button class="filter-btn" data-filter=".logo-design">Graphic Design</button>
+                    </div>
+
+                    <div class="grid">
+                        <div class="grid-item logo-design">
+                            <div class="gallery-image">
+                                <img src="./img/portfolio/port1.jpg" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>Logo Design</h3>
+                                        <h5>View Demo</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item webdev">
+                            <div class="gallery-image">
+                                <img src="./img/portfolio/port2.jpg" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>App Design</h3>
+                                        <h5>View Demo</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item ui webdev">
+                            <div class="gallery-image">
+                                <img src="./img/portfolio/port3.jpg" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>Website Design</h3>
+                                        <h5>View Demo</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item ui">
+                            <div class="gallery-image">
+                                <img src="./img/portfolio/port4.jpg" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>UI/ UX</h3>
+                                        <h5>View Demo</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item ogo-design">
+                            <div class="gallery-image">
+                                <img src="./img/portfolio/port5.jpg" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>Web Development</h3>
+                                        <h5>View Demo</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item appdev">
+                            <div class="gallery-image">
+                                <img src="./img/portfolio/port6.jpg" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>Web Design</h3>
+                                        <h5>View Demo</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item ogo-design">
+                            <div class="gallery-image">
+                                <img src="./img/portfolio/port7.jpg" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>Logo Design</h3>
+                                        <h5>View Demo</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item appdev ui">
+                            <div class="gallery-image">
+                                <img src="./img/portfolio/port8.jpg" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>App Development</h3>
+                                        <h5>View Demo</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item ui webdev">
+                            <div class="gallery-image">
+                                <img src="./img/portfolio/port9.jpg" alt="">
+                                <div class="img-overlay">
+                                    <div class="plus"></div>
+                                    <div class="img-description">
+                                        <h3>Logo Design</h3>
+                                        <h5>View Demo</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="more-folio">
+                        <a href="#" class="btn">More Folio</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h3 class="title" data-title="Who am I?">About me</h3>
+                </div>
+                <div class="section-body grid-2">
+                    <div class="column-1">
+                        <h3 class="title-sm">Hello</h3>
+                        <p class="text">
+                            Phasellus at vehicula eros, non accumsan tortor. Vestibulum ullamcorper elit non est convallis, et tempus tortor tincidunt. 
+                        </p>
+                        <div class="skills">
+                            <div class="skill html">
+                                <h3 class="skill-title">HTML</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill css">
+                                <h3 class="skill-title">CSS</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="70%"></div>
+                                </div>
+                            </div>
+                            <div class="skill js">
+                                <h3 class="skill-title">JavaScript</h3>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+
+                    <div class="column-2 image">
+                        <img src="./img/about.svg" class="z-index" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="records">
+            <div class="container">
+                <div class="wrap">
+                    <div class="record-circle">
+                        <h2 class="number" data-num="235">0</h2>
+                        <h4 class="sub-title">Projects</h4>
+                    </div>
+                </div>
+
+                <div class="wrap">
+                    <div class="record-circle active">
+                        <h2 class="number" data-num="175">0</h2>
+                        <h4 class="sub-title">Happy Clients</h4>
+                    </div>
+                </div>
+
+                <div class="wrap">
+                    <div class="record-circle">
+                        <h2 class="number" data-num="892">0</h2>
+                        <h4 class="sub-title">Work Hour</h4>
+                    </div>
+                </div>
+
+                <div class="wrap">
+                    <div class="record-circle">
+                        <h2 class="number" data-num="368">0</h2>
+                        <h4 class="sub-title">Awards</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog section">
+            <div class="container">
+
+                <div class="section-header">
+                    <h3 class="title" data-title="Last News">My blog</h3>
+                    <p class="text">Mauris dolor risus, elementum eget nunc nec, scelerisque congue diam. Etiam placerat diam egestas commodo varius. Etiam eu turpis dapibus, tristique leo ut, molestie odio.</p>
+                </div>
+
+                <div class="blog-wrapper">
+                    <div class="blog-wrap">
+                        <div class="blog-card">
+                            <div class="blog-image">
+                                <img src="./img/blog1.jpg" alt="">
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-info">
+                                    <h5 class="blog-date">March, 19 2021</h5>
+                                    <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
+                                </div>
+                                <h3 class="title-sm">This is a short title</h3>
+                                <p class="blog-text">
+                                    Etiam hendrerit aliquet quam sed venenatis. Morbi eleifend leo neque, id tincidunt neque placerat sed.
+                                </p>
+                                <a href="#" class="btn small">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-wrap">
+                        <div class="blog-card">
+                            <div class="blog-image">
+                                <img src="./img/blog2.jpg" alt="">
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-info">
+                                    <h5 class="blog-date">August, 02 2021</h5>
+                                    <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
+                                </div>
+                                <h3 class="title-sm">This is a short title</h3>
+                                <p class="blog-text">
+                                    Fusce non sapien dapibus magna imperdiet pellentesque in vel felis. Cras nec scelerisque sem, et tristique erat. 
+                                </p>
+                                <a href="#" class="btn small">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-wrap">
+                        <div class="blog-card">
+                            <div class="blog-image">
+                                <img src="./img/blog3.jpg" alt="">
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-info">
+                                    <h5 class="blog-date">December, 12 2022</h5>
+                                    <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
+                                </div>
+                                <h3 class="title-sm">This is a short title</h3>
+                                <p class="blog-text">
+                                    Fusce non sapien dapibus magna imperdiet pellentesque in vel felis. Cras nec scelerisque sem, et tristique erat. 
+                                </p>
+                                <a href="#" class="btn small">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <section class="testimonials section" id="testimonials">
+            <div class="container">
+
+                <div class="section-header">
+                    <h3 class="title" data-title="What People Say">Testimonials</h3>
+                </div>
+
+                <div class="testi-content grid-2">
+                    <div class="column-1 reviews">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide review">
+                                    <i class="fas fa-quote-left quote"></i>
+                                    <div class="rate">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+
+                                    <p class="review-text">
+                                        Aliquam gravida quam sapien, tincidunt euismod eros vehicula quis. Pellentesque sodales purus vel blandit dapibus. 
+                                    </p>
+
+                                    <div class="p review-info">
+                                        <h3 class="review-name">Matias Butt</h3>
+                                        <h5 class="review-job">Photographer, Paris</h5>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide review">
+                                    <i class="fas fa-quote-left quote"></i>
+                                    <div class="rate">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+
+                                    <p class="review-text">
+                                        Vivamus eget nunc ac libero scelerisque venenatis at eu nisi. Donec tempor placerat eleifend.
+                                    </p>
+
+                                    <div class="p review-info">
+                                        <h3 class="review-name">Romeo Herbert</h3>
+                                        <h5 class="review-job">CEO, Munich</h5>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide review">
+                                    <i class="fas fa-quote-left quote"></i>
+                                    <div class="rate">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+
+                                    <p class="review-text">
+                                        Quisque ullamcorper, ante eu sollicitudin luctus, leo augue lacinia mauris, eget cursus mi nibh vitae lectus. Nunc non tincidunt risus. Etiam in molestie nunc, at pellentesque elit.
+                                    </p>
+
+                                    <div class="p review-info">
+                                        <h3 class="review-name">Jack Costa</h3>
+                                        <h5 class="review-job">Director of THR, London</h5>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide review">
+                                    <i class="fas fa-quote-left quote"></i>
+                                    <div class="rate">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+
+                                    <p class="review-text">
+                                        Duis vestibulum lectus vel leo vulputate, vitae fermentum erat aliquam. Pellentesque molestie lectus id eleifend lobortis.
+                                    </p>
+
+                                    <div class="p review-info">
+                                        <h3 class="review-name">Reiss Mccartney</h3>
+                                        <h5 class="review-job">Engineer, San Francisco</h5>
+                                    </div>
+                                </div>                                    
+                            </div>
+
+                            <div class="review-nav swiper-button-prev">
+                                <i class="fas fa-long-arrow-alt-left"></i>
+                            </div>
+                            <div class="review-nav swiper-button-next">
+                                <i class="fas fa-long-arrow-alt-right"></i>
+                            </div>
+
+                        </div>                   
+                    </div>
+
+                    <div class="column-2 image">
+                        <img src="./img/testi.svg" alt="" class="img-element">
+                    </div>
+                    
+                </div>
+
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="contact-box">
+                    <div class="contact-info">
+                        <h3 class="title">Get in touch</h3>
+                        <p class="text">
+                            Sed nulla lorem, viverra in varius in, dictum rutrum purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        </p>
+                        <div class="information-wrap">
+                            <div class="information">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <p class="info-text">Aliquam gravida quam, sapien</p>
+                            </div>
+                            <div class="information">
+                                <div class="contact-icon">
+                                    <i class="fas fa-paper-plane"></i>
+                                </div>
+                                <p class="info-text">testnow@webdev.com</p>
+                            </div>
+                            <div class="information">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <p class="info-text">123-456-789</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <h3 class="title">Contact me</h3>
+                        <div class="row">
+                            <input type="text" class="contact-input" placeholder="First Name">
+                            <input type="text" class="contact-input" placeholder="Last Name">
+                        </div>
+                        <div class="row">
+                            <input type="text" class="contact-input" placeholder="Phone">
+                            <input type="email" class="contact-input" placeholder="Email">
+                        </div>
+                        <div class="row">
+                            <textarea name="message" class="contact-input textarea" placeholder="Message"></textarea>
+                        </div>
+                        <a href="#" class="btn">Send</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="hireme section" id="hireme">
+            <div class="container">
+                <h3 class="title" data-title="Hire me">Let's talk about a project</h3>
+                <p class="text">
+                    Donec cursus lectus eget facilisis tempor. Maecenas a sollicitudin dui, ut facilisis ante. </p>
+                <a href="#" class="btn">Hire me</a>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="grid-4">
+                <div class="grid-4-col footer-about">
+                    <h3 class="title-sm">About</h3>
+                    <p class="text">
+                        Duis vestibulum lectus vel leo vulputate, vitae fermentum erat aliquam. Pellentesque molestie lectus id eleifend lobortis.
+                    </p>
+                </div>
+
+                <div class="grid-4-col footer-links">
+                    <h3 class="title-sm">Links</h3>
+                    <ul>
+                        <li>
+                            <a href="#services">Services</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#testimonials">Testimonials</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="grid-4-col footer-links">
+                    <h3 class="title-sm">Services</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Web Design</a>
+                        </li>
+                        <li>
+                            <a href="#">Web Dev</a>
+                        </li>
+                        <li>
+                            <a href="#">App Design</a>
+                        </li>
+                        <li>
+                            <a href="#">Marketing</a>
+                        </li>
+                        <li>
+                            <a href="#">UI Design</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="grid-4-col footer-newsletter">
+                    <h3 class="title-sm">Subscribe</h3>
+                    <p class="text">
+                        Suspendisse non augue laoreet, bibendum nibh ac, ullamcorper libero. Donec cursus lectus eget facilisis tempor. 
+                    </p>
+                    <div class="footer-input-wrap">
+                        <input type="email" class="footer-input" placeholder="Email">
+                        <a href="#" class="input-arrow">
+                            <i class="fas fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-footer">
+                <div class="copyright">
+                    <p class="text">
+                        copyright&copy;2022 ALLrights reserved | Made by
+                        <span>True Coder</span>
+                    </p>
+                </div>
+
+                <div class="followme-wrap">
+                    <div class="followme">
+                        <h3>Follow me</h3>
+                        <span class="footer-line"></span>
+                        <div class="social-media">
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                        <div class="back-btn-wrap">
+                            <a href="#" class="back-btn">
+                                <i class="fas fa-chevron-up"></i>
+                            </a>
+                        </div>
+                    </div>               
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+
+    <!-- testimonials section 轮播图 -->
+    <script>
+        var mySwiper = new Swiper(".swiper", {
+            speed:1100,
+            slidesPerView:1,
+            loop: true,
+            autoplay:{
+                delay: 5000,
+            },
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+    </script>
+    
+</body>
+
+</html>
